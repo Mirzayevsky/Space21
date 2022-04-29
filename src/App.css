@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brawler&display=swap');
+
+@font-face {
+  font-family: object-sans;
+  src: url("./Components/assets/fonts/Object Sans - Free for personal use/ObjectSans-Heavy.otf");
+}
+@font-face {
+  font-family: AeonikMedium;
+  src: url("./Components/assets/fonts/Aeonik-font-download/Aeonik-Medium.otf");
+}
+@font-face {
+  font-family: AeonikRegular;
+  src: url("./Components/assets/fonts/Aeonik-font-download/Aeonik-Regular.otf");
+}
+@font-face {
+  font-family: Aeonik;
+  src: url("./Components/assets/fonts/Aeonik-font-download/Aeonik-Regular.otf");
+}
+@font-face {
+  font-family: New-Times-Roman;
+  src: url("./Components/assets/fonts/Times-New-Roman-Font/Times New Roman Font.ttf")
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: object-sans,sans-serif;
+}
+
+html{
+  overflow: scroll;
+  overflow-x: hidden;
+}
+span::selection{
+  color: #1d1d1b;
+  background-color: #fff55f;
+
+}
+
+div::selection{
+  color: #1d1d1b;
+  background-color: #fff55f;
+
+}
+::-webkit-scrollbar{
+  width: 0;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #FF0000;
+}
