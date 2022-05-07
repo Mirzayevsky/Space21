@@ -7,6 +7,10 @@
   src: url("./Components/assets/fonts/Object Sans - Free for personal use/ObjectSans-Heavy.otf");
 }
 @font-face {
+  font-family: object-sans-Regular;
+  src: url("./Components/assets/fonts/Object Sans - Free for personal use/ObjectSans-Regular.otf");
+}
+@font-face {
   font-family: AeonikMedium;
   src: url("./Components/assets/fonts/Aeonik-font-download/Aeonik-Medium.otf");
 }

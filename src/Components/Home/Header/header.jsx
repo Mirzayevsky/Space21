@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import {ArrowLink, Container, Controls, ShowReel, Title} from "./style";
-import {ReactComponent as Arrow} from "../../assets/home/svg/right-arrow-svgrepo-com.svg";
+// import {ReactComponent as Arrow} from "../../assets/home/svg/right-arrow-svgrepo-com.svg";
 import { useRef } from "react";
 import Cursor from "../../CustomCursor/cursor";
 const Header = () =>{
@@ -21,7 +21,7 @@ const Header = () =>{
                         loop="loop"/>
                         </ShowReel> :
                     <ArrowLink>
-                        <Arrow className={'arrow'}/>
+                        {/*<Arrow className={'arrow'}/>*/}
                         <span onClick={()=>setPlay(true)} className={'arrow-span'}> Play showreel</span>
                     </ArrowLink>
             }

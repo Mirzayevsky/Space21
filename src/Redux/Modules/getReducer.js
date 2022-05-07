@@ -2,7 +2,7 @@ import  {createSlice} from "@reduxjs/toolkit";
 const getReducer = createSlice({
     name:"productData",
     initialState:{
-        url: `https://wolffolins.b-cdn.net/wolffolins/81de49a0-252f-4308-85de-c694a7dc4637_01_Google_Workspace_Rotate.mp4`
+        url: `https://wolffolins.b-cdn.net/`
     },
     reducers:{
         getData:(state, action) => {

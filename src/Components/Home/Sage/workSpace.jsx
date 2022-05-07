@@ -1,7 +1,6 @@
 import React from 'react'
 import {Container,Video,Content,GoogleWorkSpace,ArrowIcon} from "./style";
 import {useSelector} from "react-redux";
-import ArrowPng from "../../assets/home/svg/right-arrow-svgrepo-com.svg"
 
 const Sage = () => {
     const data = useSelector(state => state.getReducer.url)
@@ -15,7 +14,7 @@ const Sage = () => {
         <Content>
             <GoogleWorkSpace>Tesco</GoogleWorkSpace>
             <ArrowIcon>
-                <img src={ArrowPng} alt={'arrow icon'}/>
+                {/*<img src={ArrowPng} alt={'arrow icon'}/>*/}
             </ArrowIcon>
         </Content>
     </Container>
